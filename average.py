@@ -38,8 +38,20 @@ try:
 except:
     pass    
 #FONT__
+
+#CONFIG__
+
+
+begin_number = 1 #beginning
+end_number  = 6  #ending
+quantity = 1000  #how_often
+
+#####e.g for a dice
+
+#CONFIG__
+
 #CUBE__
-wuerfel = cube(1,6,1000)    
+wuerfel = cube(begin_number,end_number,quantity)    
 #cube config with 1000 trys
 summe_der_liste = sum(wuerfel.versuche())
 #sum each number of the list
