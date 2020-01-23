@@ -1,5 +1,8 @@
 import random
-from font import welcomescreen
+try:
+    from font import welcomescreen
+except:
+    pass    
 
 class cube():                                   
     
@@ -23,7 +26,10 @@ class cube():
          #return "how_often" for later divisions
     
 #FONT__
-welcomescreen.font()
+try:
+    welcomescreen.font()
+except:
+    pass    
 #FONT__
 #CUBE__
 wuerfel = cube(1,6,1000)    
