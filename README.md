@@ -26,6 +26,7 @@ begin_number = 1 #beginning
 end_number  = 6  #ending
 quantity = 1000  #how_often
 ```
+4. Run the script
 ## Output
 ![alt text](https://github.com/Domepo/RandomAverage/blob/master/output.PNG)
 
