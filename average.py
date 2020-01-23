@@ -24,7 +24,14 @@ class cube():
     def anzahl_der_wuerfe(self):
          return self.anzahl
          #return "how_often" for later divisions
-    
+
+    def first_number(self):
+        #for print function
+        return self.begin
+
+    def last_number(self):
+        #for print function
+        return self.end        
 #FONT__
 try:
     welcomescreen.font()
@@ -42,5 +49,10 @@ average =  summe_der_liste / anzahl_der_versuche
 #CUBE___
 
 
-print("The average is: ",average)
+
 print("Randomized",anzahl_der_versuche,"times")
+print("First number",wuerfel.first_number())
+print("Second number", wuerfel.last_number())
+
+print("------------------------")
+print("The average is: ",average)
