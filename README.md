@@ -18,7 +18,7 @@ or
 ```
 
 ## Usage
-1. Open the asd.py fie
+1. Open the average.py fie
 2. Scroll down to #CONFIG__ 
 3. Edit 
 ```bash
